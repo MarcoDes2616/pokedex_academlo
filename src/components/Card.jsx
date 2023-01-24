@@ -96,7 +96,7 @@ const Card = ({ url }) => {
                 <div className='pokemon__details'>
                     <h4>{`${pokemon.name?.charAt(0).toUpperCase()}${pokemon.name?.slice(1)}`}</h4>
                     <div className='types'>
-                        {pokemonTypes.join(" / ")}
+                        <p>{pokemonTypes.join(" / ")}</p>
                     </div>
                     <div className='characteristics'>
                         <div className='characteristics__info'>
