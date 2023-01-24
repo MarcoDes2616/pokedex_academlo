@@ -22,7 +22,7 @@ const Item = () => {
             return pokemon.sprites?.other.home.front_default
         }
     }
-
+    
     const getBackground = () => {
         let type = pokemon.types?.[0].type.name
         switch (type) {
@@ -109,7 +109,7 @@ const Item = () => {
         }
     }
     description()
-
+    
     return (
         <div className='item'>
             <div className='name__type'>
@@ -122,6 +122,13 @@ const Item = () => {
                 <i onClick={() => navigate(-1)} className='bx bxs-chevron-left bx-lg'></i>
                 <img className='ball__img' src={ballItem} alt="" />
                 <img className='poke__img' src={getImage()} alt="" />
+                <div className='item_characteristics'>
+                    <p><strong>Peso:</strong></p>
+                    <p>{pokemon.weight}</p>
+                    <hr />
+                    <p><strong>Altura:</strong></p>
+                    <p>{pokemon.height}</p>
+                </div>
             </div>
             <div className='item_description'>
                 <div className='title_description'>

@@ -46,7 +46,7 @@ const Pokedex = () => {
             <div className='welcome'>
                 <p>Hola <span>{username}</span>, aca podrás encontrar tus Pokemones favoritos!</p>
                 <div className='search__container'>
-                    <input placeholder='Buscar pokemon por nombre' type="text" value={search} onChange={e => setSearch(e.target.value)} />
+                    <input placeholder='Buscar pokemon por nombre' type="text" value={search} onChange={e => setSearch(e.target.value.toLowerCase())} />
                     <button onClick={() => navigate(`/pokedex/${search}`)}><i className='bx bx-search bx-sm'></i></button>
                     { search != "" &&
                         <Sugestions suggestions={suggestions} setSearch={setSearch} />}
