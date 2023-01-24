@@ -448,6 +448,7 @@ option{
   width: 100%;
   max-width: 400px;
   transition: transform 1s;
+  animation: pokemon 2s 1 linear;
 }
 .poke__img:hover{
   transform: scale(1.1);
