@@ -8,7 +8,7 @@ const Item = () => {
     const navigate = useNavigate()
     const { id } = useParams();
     const [pokemon, setPokemon] = useState({})
-    const [info, setInfo] = useState("movimientos")
+    const [info, setInfo] = useState("habilidades")
 
     useEffect(() => {
         axios.get(`https://pokeapi.co/api/v2/pokemon/${id}/`)
