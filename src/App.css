@@ -13,7 +13,7 @@ body{
 .home{
   width: 100vw;
   height: 100vh;
-  background-image: url(./assets/img/bg_home.jpg);
+  background-image: url(./assets/img/bg_homeal.jpg);
   background-size: cover;
   background-position: center;
   position: fixed;
@@ -609,5 +609,8 @@ footer{
   }
   .name__type h2{
     font-size: 3rem;
+  }
+  .home{
+    background-image: url(./assets/img/bg_home.jpg);
   }
 }
