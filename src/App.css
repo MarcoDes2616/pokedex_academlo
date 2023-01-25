@@ -242,6 +242,7 @@ header{
 }
 .confi_type .bx:hover{
   animation: confi 3s infinite linear;
+  cursor: pointer;
 }
 .bytype{
   display: flex;
