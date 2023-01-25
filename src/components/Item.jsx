@@ -126,10 +126,10 @@ const Item = () => {
                     <img className='avatar' src={getImage()} alt="" />
                     <div className='circle'><i className='bx bx-circle bx-burst bx-lg' ></i></div>
                     <p><strong>Peso:</strong></p>
-                    <p>{pokemon.weight}</p>
+                    <p>{pokemon.weight} Hg</p>
                     <hr />
                     <p><strong>Altura:</strong></p>
-                    <p>{pokemon.height}</p>
+                    <p>{pokemon.height} Dm</p>
                 </div>
             </div>
             <div className='item_description'>
