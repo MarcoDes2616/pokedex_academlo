@@ -517,7 +517,7 @@ option{
     opacity: 0.2;
   }
   50%{
-    opacity: 1;
+    opacity: .8;
   }
   100%{
     opacity: 0.2;;
