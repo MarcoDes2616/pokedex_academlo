@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import ballItem from "../assets/img/vector_ball.png";
+import red from "../assets/img/red.png";
 
 const Item = () => {
     const navigate = useNavigate()
@@ -123,6 +124,7 @@ const Item = () => {
                 <img className='ball__img' src={ballItem} alt="" />
                 <img className='poke__img' src={getImage()} alt="" />
                 <div className='item_characteristics'>
+                    <img className='red' src={red} alt="" />
                     <img className='avatar' src={getImage()} alt="" />
                     <div className='circle'><i className='bx bx-circle bx-burst bx-lg' ></i></div>
                     <p><strong>Peso:</strong></p>

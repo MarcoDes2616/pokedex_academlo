@@ -492,6 +492,14 @@ option{
   color: #173f57;
   transform: rotatex(70deg);  
 }
+.red{
+  width: 75%;
+  position: absolute;
+  top: 0;
+  z-index: 103;
+  animation: malla 1s infinite linear;
+  filter: drop-shadow( 1px 1px 10px rgb(1, 100, 1));
+}
 @keyframes avatar {
   0%{
     transform: rotateY(0deg);
@@ -501,6 +509,18 @@ option{
   }
   100%{
     transform: rotateY(360deg);
+  }
+  
+}
+@keyframes malla {
+  0%{
+    opacity: 0.2;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0.2;;
   }
   
 }
