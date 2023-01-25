@@ -185,6 +185,23 @@ header{
   top: -1.6rem;
   color: rgb(29, 29, 29);
 }
+input:focus{
+  outline: none;
+}
+.confi button{
+  width: 150px;
+  height: 2rem;
+  border: none;
+  background-color: #173f57;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px gray;
+  transition: background .5s;
+}
+.confi button:hover{
+  cursor: pointer;
+  background: #0e2e42;
+}
 .suggestions{
   position: absolute;
   border: 1px solid;
