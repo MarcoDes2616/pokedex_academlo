@@ -497,6 +497,7 @@ option{
   position: absolute;
   top: 0;
   z-index: 103;
+  opacity: .7;
   animation: malla 1s infinite linear;
   filter: drop-shadow( 1px 1px 10px rgb(1, 100, 1));
 }
@@ -517,7 +518,7 @@ option{
     opacity: 0.2;
   }
   50%{
-    opacity: .8;
+    opacity: .7;
   }
   100%{
     opacity: 0.2;;
