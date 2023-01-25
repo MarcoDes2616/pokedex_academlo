@@ -57,12 +57,12 @@ body{
   left: calc(50% - 100px);
 }
 .input input{
-  width: 200px;
+  width: 210px;
   height: 40px;
   background-color: black;
   font-family: 'Orbitron', sans-serif;
   color: yellow;
-  text-align: center;
+  padding-left: 1rem;
   font-size: 2rem;
 }
 .input button{
@@ -70,7 +70,13 @@ body{
   background-color: transparent;
   border: none;
   color: red;
+  filter: drop-shadow(1px 1px 1px rgb(223, 209, 194));
   right: 0;
+  top: -3px;
+}
+.input button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
 }
 header{
   width: 100%;
@@ -465,8 +471,38 @@ option{
   top: 8rem;
   text-align: center;
   width: 100px;
+  padding: .5rem;
   background-color: rgba(255, 255, 255, 0.425);
   border-radius: 0 10px 10px 0;
+  perspective: 900px;
+  perspective-origin: center;
+}
+.avatar{
+  filter: grayscale();
+  max-width: 80%;
+  margin: .5rem;
+  animation: avatar 6s infinite linear;
+  position: relative;
+  z-index: 102;
+}
+.circle{
+  position: absolute;
+  left: calc(25%);
+  top: calc(30%);
+  color: #173f57;
+  transform: rotatex(70deg);  
+}
+@keyframes avatar {
+  0%{
+    transform: rotateY(0deg);
+  }
+  50%{
+    transform: rotateY(180deg);
+  }
+  100%{
+    transform: rotateY(360deg);
+  }
+  
 }
 .poke__img{
   margin: 0 auto;
