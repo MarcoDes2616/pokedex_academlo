@@ -508,7 +508,7 @@ option{
   margin: 0 auto;
   position: relative;
   z-index: 3;
-  width: 100%;
+  width: 88%;
   max-width: 400px;
   transition: transform 1s;
   animation: pokemon 2s 1 linear;

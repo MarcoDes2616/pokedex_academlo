@@ -124,7 +124,7 @@ const Item = () => {
                 <img className='poke__img' src={getImage()} alt="" />
                 <div className='item_characteristics'>
                     <img className='avatar' src={getImage()} alt="" />
-                    <div className='circle'><i class='bx bx-circle bx-burst bx-lg' ></i></div>
+                    <div className='circle'><i className='bx bx-circle bx-burst bx-lg' ></i></div>
                     <p><strong>Peso:</strong></p>
                     <p>{pokemon.weight}</p>
                     <hr />
