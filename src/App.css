@@ -498,7 +498,7 @@ option{
   top: 0;
   z-index: 103;
   opacity: .6;
-  animation: malla 1s infinite linear;
+  animation: malla 2s infinite linear;
   filter: drop-shadow( 1px 1px 10px rgb(1, 100, 1));
 }
 @keyframes avatar {
